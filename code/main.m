@@ -1,5 +1,9 @@
 
 % The code was written by Junyi Guan in 2021.
+% Please kindly cite the paper Junyi Guan, Sheng li, Xiongxiong He, Jinhui Zhu, Jiajia Chen, and Peng Si
+% SMMP: A Stable-Membership-based Auto-tuning Multi-Peak Clustering Algorithm
+% IEEE TPAMI,2022,Doi:10.1109/TPAMI.2022.3213574
+
 clear;close all;clc;
 %% load dataset
 load data/D31
