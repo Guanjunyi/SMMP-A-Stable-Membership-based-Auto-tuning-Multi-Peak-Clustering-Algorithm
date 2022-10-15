@@ -1,5 +1,10 @@
 % The code was written by Junyi Guan in 2021.
 
+
+% Please kindly cite the paper Junyi Guan, Sheng li, Xiongxiong He, Jinhui Zhu, Jiajia Chen, and Peng Si
+% SMMP: A Stable-Membership-based Auto-tuning Multi-Peak Clustering Algorithm
+% IEEE TPAMI,2022,Doi:10.1109/TPAMI.2022.3213574
+
 function [CL,NC,runtime] = SMMP(data,NC_input) % If you have prior knowledge, you can directly enter the cluster number 'NC_input'
 close all;
 eta = 0.1; %% used to determine the length of the similarity message vector
