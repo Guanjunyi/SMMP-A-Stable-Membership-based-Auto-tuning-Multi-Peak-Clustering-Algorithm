@@ -21,7 +21,7 @@ end
 if d<=11
     [knn,knn_dist] = knnsearch(data,data,'k',max_k*2);
 else
-    dist = pdist2(data,data);
+    dist = pdist2(data,data,'euclidean');
     [knn_dist,knn] = sort(dist,2);
 end
 
