@@ -7,6 +7,7 @@ function [CL,NC,runtime] = SMMP(data,NC_input) % If you have prior knowledge, yo
 close all;
 eta = 0.1; %% used to determine the length of the similarity message vector
 fprintf('SMMP Clustering :)!\n');
+isshowresult = 1;
 %% normalization
 data=(data-min(data))./(max(data)-min(data));
 data(isnan(data))=0;
